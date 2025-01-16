@@ -7,7 +7,7 @@ const formData = {
  
 const localStorageKey = "feedback-form-state";
 
-savedData.value = localStorage.getItem('localStorageKey') ?? '';
+formData.value = localStorage.getItem('localStorageKey') ?? '';
 
 form.addEventListener("input", (evt) => {
   localStorage.setItem(localStorageKey, evt.target.value);
