@@ -9,10 +9,23 @@
   </head>
   <body>
     <section>
-      <a href="./index.html">Go to home</a>
-      <h1>Welcome to page 3</h1>
+      <a href="./index.html" class="home-link">Go to home</a>
+      <h1>Welcome to Form</h1>
     </section>
-
+    
+    <div class="form-div">
+      <form class="feedback-form" autocomplete="off">
+        <label class="email-lbl">
+          Email
+          <input class="email-input" type="email" name="email" autofocus />
+        </label>
+        <label class="message-lbl">
+          Message
+          <textarea class="message-text" name="message" rows="8"></textarea>
+        </label>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
     <script type="module" src="./js/2-form.js"></script>
   </body>
 </html>
