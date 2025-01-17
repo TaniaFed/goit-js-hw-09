@@ -33,3 +33,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+.nav-gallery,
+.nav-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  margin: 16px;
+}
